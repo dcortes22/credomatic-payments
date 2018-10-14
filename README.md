@@ -23,7 +23,7 @@ O instalelo usted mismo:
 Para poder utilizar la geme debe crear una instancia de la clase Transactions, dicha clase se encuentra dentro del modulo Credomatic::Payments
 
 ```ruby
-transaction = Transactions.new(KEY_ID, KEY)
+transaction = Credomatic::Payments::Transactions.new(KEY_ID, KEY)
 ```
 
 Una vez creada la instancia basta con llamar al metodo generate_transaction, con los parametros adecuados para recibir una respuesta por parte del servidor de Credomatic.

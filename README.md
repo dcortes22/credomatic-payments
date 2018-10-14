@@ -66,20 +66,23 @@ La variable response es un hash, con las siguientes llaves:
 Basándonos en la documentación de credomatic, los valores de dichas variables se resumen en la siguiente tabla:
 
 Response
+
 | Codigo 	|                         Valor                         	|
 |:------:	|:-----------------------------------------------------:	|
 |    1   	| Transacción Aprobada                                  	|
 |    2   	| Transacción Denegada                                  	|
-|    3   	| Error en datos de la transacción o error del sistema. 	|
+|    3   	| Error en datos de la transacción o error del sistema. 	 |
 
 Response Code
+
 | Codigo 	|                   Valor                   	|
 |:------:	|:-----------------------------------------:	|
 |   100  	| Transacción Aprobada                      	|
-|   200  	| Transacción declinada por el Autorizador. 	|
+|   200  	| Transacción declinada por el Autorizador. 	 |
 |   300  	| Transacción declinada por el Sistema.     	|
 
 CVV Response
+
 | Codigo 	|                                 Valor                                	|
 |:------:	|:--------------------------------------------------------------------:	|
 |    M   	| CVV2/CVC2 Match                                                      	|
@@ -89,6 +92,7 @@ CVV Response
 |    U   	| Issuer is not certified and/or has not provided Visa encryption keys 	|
 
 AVS Response
+
 | Codigo 	|                 Valor                	|
 |:------:	|:------------------------------------:	|
 |    X   	| Exact match, 9-character numeric ZIP 	|

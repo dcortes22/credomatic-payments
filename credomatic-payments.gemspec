@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Manejo de pagos Credomatic Costa Rica}
   spec.description   = %q{Realice pagos desde su sitio web con Credomatic Gateway.}
-  spec.homepage      = "http://www.davidcortes.cr"
+  spec.homepage      = "https://github.com/dcortes22/credomatic-payments"
   spec.license       = "MIT"
 
   # Specify which files should be added to the gem when it is released.
